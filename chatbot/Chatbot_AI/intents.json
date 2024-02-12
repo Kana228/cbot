@@ -1,0 +1,122 @@
+{"intents":[
+ {"tag": "greetings",
+  "patterns": ["hello","hey","good day","greetings","what`s up?","how are you?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can i do for you?"]
+},
+ {"tag": "goodbye",
+  "patterns": ["bye","cya","see you","have a good day","i gotta go","thanks bye","goodbye"],
+  "responses": ["Goodbye!","See you later!","Happy to help you!"]
+},
+ {"tag": "shop",
+  "patterns": ["I wand to buy something","What do you sell","What can you reccomend","I`d like to buy"],
+  "responses": ["Of course, we have ... and ... what would you like to buy?"]
+},
+ {"tag": "name",
+  "patterns": ["What`s your name?","who are you?","tell me your name","how to call you?"],
+  "responses": ["I am CyberPal","My name is CyberPal","You can call me CyperPal"]
+},
+ {"tag": "owner",
+"patterns": ["Who created you?","who is your creator?","who made you?","what is the name of your owner"],
+"responses": ["My creator is Kana!","Kana created me!","His name is Kana!"]
+},
+{
+  "tag": "product_info",
+  "patterns": ["Tell me about your products", "What features do your products have?", "Can you describe your products?"],
+  "responses": ["Our products are known for their quality and durability. Would you like more specific information about any particular product?"]
+},
+{
+  "tag": "pricing",
+  "patterns": ["How much do your products cost?", "What is the price range of your products?", "Can you provide pricing information?"],
+  "responses": ["Our pricing varies depending on the product. Would you like to know the price of a specific item?"]
+},
+{
+  "tag": "availability",
+  "patterns": ["Are your products currently in stock?", "Do you have this product available?", "Is this product available for purchase?"],
+  "responses": ["I can check the availability of the product for you. Could you please provide the name or SKU of the product?"]
+},
+{
+  "tag": "order_status",
+  "patterns": ["Can you check the status of my order?", "Where is my order?", "Has my order shipped?"],
+  "responses": ["Sure, please provide your order number, and I'll check the status for you."]
+},
+{
+  "tag": "return_policy",
+  "patterns": ["What is your return policy?", "How can I return a product?", "Do you accept returns?"],
+  "responses": ["Our return policy allows returns within 30 days of purchase. For more details, please visit our website or contact our customer service."]
+},
+{
+  "tag": "shipping_info",
+  "patterns": ["How long does shipping take?", "What are your shipping options?", "Can you provide shipping information?"],
+  "responses": ["Shipping times vary depending on your location and chosen shipping method. Would you like an estimate for a specific destination?"]
+},
+{
+  "tag": "payment_methods",
+  "patterns": ["What payment methods do you accept?", "Can I pay with credit card?", "Do you accept PayPal?"],
+  "responses": ["We accept various payment methods including credit cards, PayPal, and bank transfer. Is there a specific payment method you prefer?"]
+},
+{
+  "tag": "discounts",
+  "patterns": ["Do you offer any discounts?", "Are there any promotions or sales?", "Can I get a discount?"],
+  "responses": ["We occasionally offer discounts and promotions. Be sure to subscribe to our newsletter to stay updated on our latest offers."]
+},
+{
+  "tag": "size_guide",
+  "patterns": ["Do you have a size guide?", "How do I choose the right size?", "Where can I find sizing information?"],
+  "responses": ["Yes, we have a size guide available on our website. You can find it under the product description section."]
+},
+{
+  "tag": "contact_info",
+  "patterns": ["How can I contact customer service?", "What is your phone number?", "Do you have a live chat?"],
+  "responses": ["You can contact our customer service team via phone, email, or live chat. Our contact details are available on our website."]
+},
+{
+  "tag": "account_creation",
+  "patterns": ["How do I create an account?", "Can you help me set up an account?", "Where can I register?"],
+  "responses": ["You can create an account on our website by clicking on the 'Sign Up' or 'Register' button. It only takes a few minutes."]
+},
+{
+  "tag": "order_tracking",
+  "patterns": ["How do I track my order?", "Where can I find my tracking number?", "Do you provide order tracking?"],
+  "responses": ["Once your order is shipped, we'll send you a tracking number via email. You can use it to track your order on our website or the courier's website."]
+},
+{
+  "tag": "delivery_options",
+  "patterns": ["Do you offer express delivery?", "Can I expedite my shipping?", "What are my delivery options?"],
+  "responses": ["Yes, we offer express delivery for an additional fee. You can choose your preferred delivery option during checkout."]
+},
+{
+  "tag": "product_recommendation",
+  "patterns": ["Can you recommend a product for me?", "What product would you suggest?", "Do you have any recommendations?"],
+  "responses": ["Certainly! Could you please provide some details about your preferences or requirements?"]
+},
+{
+  "tag": "order_modification",
+  "patterns": ["Can I modify my order?", "Is it possible to change my order?", "Can I add items to my order?"],
+  "responses": ["Once an order is placed, it may not be possible to modify it. However, you can contact our customer service team, and we'll do our best to assist you."]
+},
+{
+  "tag": "product_comparison",
+  "patterns": ["Can you compare two products for me?", "What are the differences between these products?", "Which product is better?"],
+  "responses": ["Sure! Please provide the names or SKUs of the products you'd like to compare, and I'll provide you with a detailed comparison."]
+},
+{
+  "tag": "account_recovery",
+  "patterns": ["I forgot my password", "How do I reset my password?", "Can you help me recover my account?"],
+  "responses": ["You can reset your password by clicking on the 'Forgot Password' link on the login page. We'll send you instructions on how to recover your account."]
+},
+{
+  "tag": "privacy_policy",
+  "patterns": ["What is your privacy policy?", "How do you handle my personal information?", "Can I trust you with my data?"],
+  "responses": ["Protecting your privacy is important to us. You can read our privacy policy on our website to learn more about how we handle your personal information."]
+},
+{
+  "tag": "order_cancellation",
+  "patterns": ["Can I cancel my order?", "Is it possible to cancel an order?", "What is your order cancellation policy?"],
+  "responses": ["You may be able to cancel your order if it hasn't been processed yet. Please contact our customer service team as soon as possible to request a cancellation."]
+},
+{
+  "tag": "delivery_issues",
+  "patterns": ["I haven't received my order", "My order was delivered damaged", "There's an issue with my delivery"],
+  "responses": ["I'm sorry to hear that. Please provide your order number, and I'll investigate the issue with our shipping department."]
+}
+]}
